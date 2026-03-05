@@ -1,0 +1,156 @@
+FULL BODY RECEIVED {
+  amount: '1200.00',
+  amount_details: {
+    currency_code: 'SAR',
+    amount: '1200.00',
+    total: '1200.00',
+    fee: '0.00',
+    exchange_rate: '1.000000'
+  },
+  currency_code: 'SAR',
+  customer_address_city: 'Riyadh',
+  customer_address_country: 'SA',
+  customer_address_line1: 'King Fahd Road',
+  customer_address_line2: 'Building 10',
+  customer_address_postal_code: '12271',
+  customer_address_state: 'Riyadh',
+  customer_email: 'abc.test@email.com',
+  customer_first_name: 'abc',
+  customer_last_name: 'arora',
+  customer_phone: '+966512345678',
+  fee: '0.00 SAR',
+  gateway_account: 'credit-card-bsf',
+  gateway_name: 'mpgs',
+  gateway_response: {
+    id: 'ALGTT',
+    amount: 1200,
+    device: {
+      browser: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0',
+      ipAddress: '14.194.97.106'
+    },
+    result: 'SUCCESS',
+    status: 'CAPTURED',
+    currency: 'SAR',
+    customer: {
+      email: 'abc.test@email.com',
+      lastName: 'arora',
+      firstName: 'abc',
+      mobilePhone: '+966 51 234 5678'
+    },
+    merchant: 'TEST121234345656',
+    reference: 'HS-DEAL-1014_1',
+    chargeback: { amount: 0, currency: 'SAR' },
+    description: 'Payment for HS-DEAL-1014',
+    transaction: [ [Object], [Object] ],
+    creationTime: '2026-02-19T11:51:56.365Z',
+    sourceOfFunds: { type: 'CARD', provided: [Object] },
+    merchantAmount: 1200,
+    sessionVersion: 'bcaac85b09',
+    checkoutVersion: '1.0.0',
+    lastUpdatedTime: '2026-02-19T11:51:58.902Z',
+    resultIndicator: '28643b58147c4113',
+    merchantCurrency: 'SAR',
+    totalCapturedAmount: 1200,
+    totalRefundedAmount: 0,
+    authenticationStatus: 'AUTHENTICATION_NOT_SUPPORTED',
+    merchantCategoryCode: '1111',
+    totalDisbursedAmount: 0,
+    authenticationVersion: 'NONE',
+    totalAuthorizedAmount: 1200
+  },
+  initiator: {},
+  is_sandbox: true,
+  order_no: 'HS-DEAL-1014',
+  paid_amount: '1200.000',
+  payment_type: 'one_off',
+  pg_params: {
+    auth_code: {
+      verbose_name_en: 'Auth Code',
+      verbose_name_ar: 'رمز التفويض',
+      value: '198284'
+    },
+    card_type: {
+      verbose_name_en: 'Card Type',
+      verbose_name_ar: 'نوع البطاقه',
+      value: 'MASTERCARD'
+    },
+    card_holder: {
+      verbose_name_en: 'Card Holder',
+      verbose_name_ar: 'Card Holder',
+      value: 'test'
+    },
+    cardholder_email: {
+      verbose_name_en: 'Cardholder Email',
+      verbose_name_ar: 'Cardholder Email',
+      value: 'abc.test@email.com'
+    },
+    card_expiry_month: {
+      verbose_name_en: 'Card Expiry Month',
+      verbose_name_ar: 'Card Expiry Month',
+      value: '1'
+    },
+    card_expiry_year: {
+      verbose_name_en: 'Card Expiry Year',
+      verbose_name_ar: 'Card Expiry Year',
+      value: '39'
+    },
+    card_number: {
+      verbose_name_en: 'Card Number',
+      verbose_name_ar: 'رقم البطاقة',
+      value: '512345xxxxxx0008'
+    },
+    card_issuer: {
+      verbose_name_en: 'Card Issuer',
+      verbose_name_ar: 'مصدر البطاقة',
+      value: 'MASTERCARD'
+    },
+    ref: {
+      verbose_name_en: 'Ref',
+      verbose_name_ar: 'معرف مرجعي',
+      value: 'HS-DEAL-1014_1'
+    },
+    transaction_id: {
+      verbose_name_en: 'Transaction Id',
+      verbose_name_ar: 'رقم معاملة الدفع',
+      value: '123456789'
+    },
+    payment_id: {
+      verbose_name_en: 'Payment Id',
+      verbose_name_ar: 'معرف الدفع',
+      value: '605011198284'
+    },
+    pg_message: {
+      verbose_name_en: 'Pg Message',
+      verbose_name_ar: 'Pg Message',
+      value: 'Approved'
+    },
+    card_expiry: {
+      verbose_name_en: 'Card Expiry',
+      verbose_name_ar: 'Card Expiry',
+      value: '1/2039'
+    },
+    card_details: {
+      verbose_name_en: 'Card Details',
+      verbose_name_ar: 'Card Details',
+      value: 'MASTERCARD test 512345xxxxxx0008 1/2039'
+    },
+    rrn: {
+      verbose_name_en: 'Rrn',
+      verbose_name_ar: 'Rrn',
+      value: '605011198284'
+    }
+  },
+  reference_number: 'ALGTT',
+  result: 'success',
+  session_id: '0b010f6305e43a6461c600d5a9414f76a7258f4c',
+  settled_amount: '1200.000',
+  signature: 'c403794e125a1180107206db7cfaad58f46932262de9e24523f7f45fe8c0fd95',
+  state: 'paid',
+  timestamp_utc: '2026-02-19 11:52:08'
+}
+{
+  orderNo: 'HS-DEAL-1014',
+  transactionId: '123456789',
+  paymentState: 'PAID',
+  mappedStatus: 'SUCCESS'
+}
